@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Matheus Reparos | Especialista em Smartphones e Notebooks</title>
+  <meta name="description" content="Assistência técnica especializada em pequenos reparos, instalações e manutenção para seu eletrônico. Reparo de smartphones, notebooks e mais. Solicite seu orçamento!">
+  <meta name="keywords" content="reparo de celular, conserto de notebook, troca de tela, troca de bateria, formatação, assistência técnica">
+  
+  <!-- CSS Principal -->
+  <link rel="stylesheet" href="css/style.css">
+  
+  <!-- Favicon SVG Embutido -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%2310b981'><path d='M22.7 19l-9.1-9.1c.9-2.3.4-5-1.5-6.9-2-2-5-2.4-7.4-1.3L9 6 6 9 1.6 4.7C.4 7.1.9 10.1 2.9 12.1c1.9 1.9 4.6 2.4 6.9 1.5l9.1 9.1c.4.4 1 .4 1.4 0l2.3-2.3c.5-.4.5-1.1.1-1.4z'/></svg>">
+</head>
+<body>
+
+  <!-- ==========================================================================
+       HEADER & NAVEGAÇÃO
+       ========================================================================== -->
+  <header class="header">
+    <div class="container nav-container">
+      <a href="index.html" class="logo" title="Matheus Reparos - Página Inicial">
+        <div class="logo-icon">
+          <svg viewBox="0 0 24 24">
+            <path d="M22.7 19l-9.1-9.1c.9-2.3.4-5-1.5-6.9-2-2-5-2.4-7.4-1.3L9 6 6 9 1.6 4.7C.4 7.1.9 10.1 2.9 12.1c1.9 1.9 4.6 2.4 6.9 1.5l9.1 9.1c.4.4 1 .4 1.4 0l2.3-2.3c.5-.4.5-1.1.1-1.4z"/>
+          </svg>
+        </div>
+        <div class="logo-text">Matheus<span>Reparos</span></div>
+      </a>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="index.html" class="nav-link active">Início</a>
+        <a href="servicos.html" class="nav-link">Serviços</a>
+        <a href="sobre.html" class="nav-link">Sobre</a>
+        <a href="contato.html" class="nav-link">Contato</a>
+      </nav>
+
+      <div class="nav-cta">
+        <a href="#" class="btn btn-whatsapp btn-sm" data-whatsapp-btn>
+          <svg viewBox="0 0 24 24"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2m.01 1.67c2.2 0 4.26.86 5.82 2.41 1.56 1.56 2.41 3.62 2.41 5.83 0 4.54-3.7 8.24-8.24 8.24-1.48 0-2.93-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.19 8.19 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.24-8.24m4.52 11.53c-.25-.13-1.47-.72-1.7-.81-.23-.08-.39-.13-.56.13-.17.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.13-1.06-.39-2.02-1.24-.74-.66-1.25-1.48-1.39-1.73-.15-.25-.02-.39.11-.51.11-.11.25-.29.37-.43.13-.15.17-.25.25-.42.08-.17.04-.31-.02-.44-.06-.13-.56-1.35-.77-1.85-.2-.49-.41-.42-.56-.43h-.48c-.17 0-.44.06-.67.31-.23.25-.87.85-.87 2.08 0 1.22.89 2.4 1.01 2.57.13.17 1.75 2.68 4.25 3.75.59.26 1.06.41 1.42.52.6.19 1.14.16 1.57.1.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.07.15-1.18-.07-.12-.23-.19-.48-.31z"/></svg>
+          Orçamento WhatsApp
+        </a>
+
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Abrir menu de navegação">
+          <svg viewBox="0 0 24 24"><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ==========================================================================
+         HERO SECTION
+         ========================================================================== -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="badge-tag">
+            <svg viewBox="0 0 24 24"><path d="M12 2L1 21h22L12 2zm0 3.99L19.53 19H4.47L12 5.99zM11 16h2v2h-2zm0-6h2v4h-2z"/></svg>
+            Assistência Técnica Especializada
+          </div>
+
+          <p class="hero-tagline">Reparo de Smartphones e Noteboooks</p>
+
+          <h1 class="hero-title">
+            Pequenos reparos, instalações e manutenção para seu <span class="gradient-text">eletrônico</span>
+          </h1>
+
+          <p class="hero-description">
+            Resolva os problemas de seus eletrônicos com quem entende. Atendimento rápido, diagnóstico transparente e peças com garantia de procedência.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#" class="btn btn-whatsapp btn-lg" data-whatsapp-btn id="heroWaBtn">
+              <svg viewBox="0 0 24 24"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2m.01 1.67c2.2 0 4.26.86 5.82 2.41 1.56 1.56 2.41 3.62 2.41 5.83 0 4.54-3.7 8.24-8.24 8.24-1.48 0-2.93-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.19 8.19 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.24-8.24m4.52 11.53c-.25-.13-1.47-.72-1.7-.81-.23-.08-.39-.13-.56.13-.17.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.13-1.06-.39-2.02-1.24-.74-.66-1.25-1.48-1.39-1.73-.15-.25-.02-.39.11-.51.11-.11.25-.29.37-.43.13-.15.17-.25.25-.42.08-.17.04-.31-.02-.44-.06-.13-.56-1.35-.77-1.85-.2-.49-.41-.42-.56-.43h-.48c-.17 0-.44.06-.67.31-.23.25-.87.85-.87 2.08 0 1.22.89 2.4 1.01 2.57.13.17 1.75 2.68 4.25 3.75.59.26 1.06.41 1.42.52.6.19 1.14.16 1.57.1.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.07.15-1.18-.07-.12-.23-.19-.48-.31z"/></svg>
+              Solicitar orçamento no WhatsApp
+            </a>
+
+            <a href="servicos.html" class="btn btn-secondary btn-lg">
+              Conhecer nossos serviços
+            </a>
+          </div>
+
+          <div class="hero-stats">
+            <div class="stat-item">
+              <span class="stat-num">+2.000<span>+</span></span>
+              <span class="stat-label">Aparelhos Recuperados</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-num">90<span> dias</span></span>
+              <span class="stat-label">Garantia nos Reparos</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-num">100<span>%</span></span>
+              <span class="stat-label">Peças Selecionadas</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Visual Tech Card -->
+        <div class="hero-visual reveal">
+          <div class="hero-glass-card">
+            <div class="hero-card-header">
+              <div>
+                <h3 style="font-size: 1.1rem; font-weight: 700; color: #fff;">Assistência em Tempo Real</h3>
+                <span style="font-size: 0.8rem; color: var(--text-muted);">Diagnósticos ágeis e sem complicação</span>
+              </div>
+              <div class="status-pill">
+                <span class="status-indicator"></span>
+                Técnico Online
+              </div>
+            </div>
+
+            <div class="device-showcase-grid">
+              <div class="device-box">
+                <div class="device-icon-wrap">
+                  <svg viewBox="0 0 24 24"><path d="M17 1.01L7 1c-1.1 0-2 .9-2 2v18c0 1.1.9 2 2 2h10c1.1 0 2-.9 2-2V3c0-1.1-.9-1.99-2-1.99zM17 19H7V5h10v14z"/></svg>
+                </div>
+                <h4>Smartphones</h4>
+                <p>Android & iPhone</p>
+              </div>
+
+              <div class="device-box">
+                <div class="device-icon-wrap">
+                  <svg viewBox="0 0 24 24"><path d="M20 18c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2H0v2h24v-2h-4zM4 6h16v10H4V6z"/></svg>
+                </div>
+                <h4>Notebooks</h4>
+                <p>Windows & Mac</p>
+              </div>
+            </div>
+
+            <div class="hero-quick-cta">
+              <div class="quick-cta-info">
+                <span class="quick-cta-title">Orçamento Prévia Gratuito</span>
+                <span class="quick-cta-sub">Envie uma foto ou vídeo do defeito</span>
+              </div>
+              <a href="#" class="btn btn-whatsapp btn-sm" data-whatsapp-btn>
+                Chamar agora
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         CARDS DE DESTAQUE / DIFERENCIAIS
+         ========================================================================== -->
+    <section class="section-sm">
+      <div class="container">
+        <div class="features-grid">
+          <!-- Card 1 -->
+          <div class="feature-card reveal">
+            <div class="feature-icon">
+              <svg viewBox="0 0 24 24"><path d="M22.7 19l-9.1-9.1c.9-2.3.4-5-1.5-6.9-2-2-5-2.4-7.4-1.3L9 6 6 9 1.6 4.7C.4 7.1.9 10.1 2.9 12.1c1.9 1.9 4.6 2.4 6.9 1.5l9.1 9.1c.4.4 1 .4 1.4 0l2.3-2.3c.5-.4.5-1.1.1-1.4z"/></svg>
+            </div>
+            <h3 class="feature-title">Reparos Especializados</h3>
+            <p class="feature-desc">Técnicas avançadas de bancada, ferramentas de precisão e testes minuciosos de cada componente.</p>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="feature-card reveal">
+            <div class="feature-icon">
+              <svg viewBox="0 0 24 24"><path d="M7 2v11h3v9l7-12h-4l4-8z"/></svg>
+            </div>
+            <h3 class="feature-title">Atendimento Rápido</h3>
+            <p class="feature-desc">Respostas ágeis no WhatsApp, prazos transparentes e reparos express para você não ficar desconectado.</p>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="feature-card reveal">
+            <div class="feature-icon">
+              <svg viewBox="0 0 24 24"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 16l-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9l-8 8z"/></svg>
+            </div>
+            <h3 class="feature-title">Serviço com Confiança</h3>
+            <p class="feature-desc">Orçamento prévio aprovado por você antes de qualquer intervenção, com garantia completa do serviço.</p>
+          </div>
+
+          <!-- Card 4 -->
+          <div class="feature-card reveal">
+            <div class="feature-icon">
+              <svg viewBox="0 0 24 24"><path d="M4 6h16v10H4zm16-4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h4v2h8v-2h4c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2z"/></svg>
+            </div>
+            <h3 class="feature-title">Smartphones e Notebooks</h3>
+            <p class="feature-desc">Cuidado completo em hardware e software para os seus principais aparelhos de trabalho e estudo.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         SERVIÇOS POPULARES
+         ========================================================================== -->
+    <section class="section">
+      <div class="container">
+        <div class="section-title-wrap">
+          <div class="badge-tag">O que fazemos</div>
+          <h2 class="section-title">Soluções Rápidas para seus <span class="highlight">Eletrônicos</span></h2>
+          <p class="section-subtitle">Conheça nossos principais serviços com diagnósticos precisos e peças com garantia de funcionamento.</p>
+        </div>
+
+        <div class="services-grid">
+          <!-- Serviço 1 -->
+          <div class="service-card reveal">
+            <div class="service-card-top">
+              <div class="service-header">
+                <div class="service-icon">
+                  <svg viewBox="0 0 24 24"><path d="M17 1.01L7 1c-1.1 0-2 .9-2 2v18c0 1.1.9 2 2 2h10c1.1 0 2-.9 2-2V3c0-1.1-.9-1.99-2-1.99zM17 19H7V5h10v14z"/></svg>
+                </div>
+                <div>
+                  <span class="service-badge">Smartphones</span>
+                  <h3 class="service-card-title">Troca de Tela & Display</h3>
+                </div>
+              </div>
+              <p class="service-description">Telas trincadas, display com listras ou touch sem resposta. Substituição com telas de alta nitidez e sensibilidade original.</p>
+              <div class="service-features">
+                <div class="service-feature-item">
+                  <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                  Garantia de 90 dias
+                </div>
+                <div class="service-feature-item">
+                  <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                  Opção de reparo no mesmo dia
+                </div>
+              </div>
+            </div>
+            <a href="#" class="btn btn-whatsapp btn-block" data-whatsapp-service="Troca de Tela de Smartphone">
+              Precisa desse serviço? Fale no WhatsApp
+            </a>
+          </div>
+
+          <!-- Serviço 2 -->
+          <div class="service-card reveal">
+            <div class="service-card-top">
+              <div class="service-header">
+                <div class="service-icon">
+                  <svg viewBox="0 0 24 24"><path d="M15.67 4H14V2h-4v2H8.33C7.6 4 7 4.6 7 5.33v15.33C7 21.4 7.6 22 8.33 22h7.33c.74 0 1.34-.6 1.34-1.33V5.33C17 4.6 16.4 4 15.67 4zM11 20v-5.5H9L13 7v5.5h2L11 20z"/></svg>
+                </div>
+                <div>
+                  <span class="service-badge">Energia & Bateria</span>
+                  <h3 class="service-card-title">Troca de Bateria</h3>
+                </div>
+              </div>
+              <p class="service-description">Bateria descarregando rápido, aparelho reiniciando ou estufado. Instalação de baterias com excelente autonomia e saúde.</p>
+              <div class="service-features">
+                <div class="service-feature-item">
+                  <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                  Ciclos 100% novos
+                </div>
+                <div class="service-feature-item">
+                  <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                  Descarte ecológico da bateria antiga
+                </div>
+              </div>
+            </div>
+            <a href="#" class="btn btn-whatsapp btn-block" data-whatsapp-service="Troca de Bateria">
+              Precisa desse serviço? Fale no WhatsApp
+            </a>
+          </div>
+
+          <!-- Serviço 3 -->
+          <div class="service-card reveal">
+            <div class="service-card-top">
+              <div class="service-header">
+                <div class="service-icon">
+                  <svg viewBox="0 0 24 24"><path d="M20 18c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2H0v2h24v-2h-4zM4 6h16v10H4V6z"/></svg>
+                </div>
+                <div>
+                  <span class="service-badge">Notebooks</span>
+                  <h3 class="service-card-title">Limpeza e Manutenção Térmica</h3>
+                </div>
+              </div>
+              <p class="service-description">Notebook esquentando, travando ou cooler barulhento. Higienização interna com aplicação de pasta térmica de alta condutividade.</p>
+              <div class="service-features">
+                <div class="service-feature-item">
+                  <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                  Redução expressiva de temperatura
+                </div>
+                <div class="service-feature-item">
+                  <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                  Prolonga a vida útil do equipamento
+                </div>
+              </div>
+            </div>
+            <a href="#" class="btn btn-whatsapp btn-block" data-whatsapp-service="Limpeza e Manutenção de Notebook">
+              Precisa desse serviço? Fale no WhatsApp
+            </a>
+          </div>
+
+          <!-- Serviço 4 -->
+          <div class="service-card reveal">
+            <div class="service-card-top">
+              <div class="service-header">
+                <div class="service-icon">
+                  <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 14.5h-2v-2h2v2zm0-4h-2V7h2v5.5z"/></svg>
+                </div>
+                <div>
+                  <span class="service-badge">Conexões</span>
+                  <h3 class="service-card-title">Conector de Carga & Portas</h3>
+                </div>
+              </div>
+              <p class="service-description">Aparelho só carrega em determinada posição ou não é reconhecido pelo computador. Reparo e soldagem de conectores Tipo-C e Lightning.</p>
+              <div class="service-features">
+                <div class="service-feature-item">
+                  <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                  Solda eletrônica de precisão
+                </div>
+                <div class="service-feature-item">
+                  <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                  Testes de corrente e amperagem
+                </div>
+              </div>
+            </div>
+            <a href="#" class="btn btn-whatsapp btn-block" data-whatsapp-service="Reparo de Conector de Carga">
+              Precisa desse serviço? Fale no WhatsApp
+            </a>
+          </div>
+
+          <!-- Serviço 5 -->
+          <div class="service-card reveal">
+            <div class="service-card-top">
+              <div class="service-header">
+                <div class="service-icon">
+                  <svg viewBox="0 0 24 24"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-7 14l-5-5 1.41-1.41L12 14.17l7.59-7.59L21 8l-9 9z"/></svg>
+                </div>
+                <div>
+                  <span class="service-badge">Software</span>
+                  <h3 class="service-card-title">Formatação e Configuração</h3>
+                </div>
+              </div>
+              <p class="service-description">Remoção de vírus, lentidão severa, recuperação de sistema corrompido, reinstalação limpa de Windows/macOS com backup de dados.</p>
+              <div class="service-features">
+                <div class="service-feature-item">
+                  <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                  Segurança total para seus arquivos
+                </div>
+                <div class="service-feature-item">
+                  <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                  Drivers e programas essenciais
+                </div>
+              </div>
+            </div>
+            <a href="#" class="btn btn-whatsapp btn-block" data-whatsapp-service="Formatação e Configuração de Software">
+              Precisa desse serviço? Fale no WhatsApp
+            </a>
+          </div>
+
+          <!-- Serviço 6 -->
+          <div class="service-card reveal">
+            <div class="service-card-top">
+              <div class="service-header">
+                <div class="service-icon">
+                  <svg viewBox="0 0 24 24"><path d="M19 8l-4 4h3c0 3.31-2.69 6-6 6-1.01 0-1.97-.25-2.8-.7l-1.46 1.46C8.97 19.54 10.43 20 12 20c4.42 0 8-3.58 8-8h3l-4-4zM6 12c0-3.31 2.69-6 6-6 1.01 0 1.97.25 2.8.7l1.46-1.46C15.03 4.46 13.57 4 12 4c-4.42 0-8 3.58-8 8H1l4 4 4-4H6z"/></svg>
+                </div>
+                <div>
+                  <span class="service-badge">Geral</span>
+                  <h3 class="service-card-title">Diagnóstico de Equipamentos</h3>
+                </div>
+              </div>
+              <p class="service-description">Não sabe qual é o defeito? O aparelho não liga ou molhou? Realizamos análise minuciosa na placa e emitimos o laudo com transparência.</p>
+              <div class="service-features">
+                <div class="service-feature-item">
+                  <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                  Sem pegadinhas ou cobranças ocultas
+                </div>
+                <div class="service-feature-item">
+                  <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                  Avaliação rápida em bancada
+                </div>
+              </div>
+            </div>
+            <a href="#" class="btn btn-whatsapp btn-block" data-whatsapp-service="Diagnóstico de Equipamento">
+              Precisa desse serviço? Fale no WhatsApp
+            </a>
+          </div>
+        </div>
+
+        <div style="text-align: center; margin-top: 3rem;">
+          <a href="servicos.html" class="btn btn-secondary btn-lg">
+            Ver Todos os 10+ Serviços Disponíveis
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         COMO FUNCIONA O ATENDIMENTO
+         ========================================================================== -->
+    <section class="section" style="background: rgba(14, 20, 30, 0.4);">
+      <div class="container">
+        <div class="section-title-wrap">
+          <div class="badge-tag">Passo a Passo</div>
+          <h2 class="section-title">Como Funciona o <span class="highlight">Nosso Reparo</span></h2>
+          <p class="section-subtitle">Processo claro, simples e seguro do início até a entrega do seu equipamento.</p>
+        </div>
+
+        <div class="steps-grid">
+          <!-- Passo 1 -->
+          <div class="step-card reveal">
+            <span class="step-number">01</span>
+            <div class="step-icon-wrap">
+              <svg viewBox="0 0 24 24"><path d="M20 2H4c-1.1 0-1.99.9-1.99 2L2 22l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2z"/></svg>
+            </div>
+            <h3 class="step-title">Contato Inicial</h3>
+            <p class="step-desc">Você nos chama no WhatsApp, descreve os sintomas do seu aparelho e nós tiramos as primeiras dúvidas.</p>
+          </div>
+
+          <!-- Passo 2 -->
+          <div class="step-card reveal">
+            <span class="step-number">02</span>
+            <div class="step-icon-wrap">
+              <svg viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>
+            </div>
+            <h3 class="step-title">Diagnóstico Preciso</h3>
+            <p class="step-desc">Análise técnica detalhada e envio de orçamento com valor fechado e prazo real de entrega antes de iniciar.</p>
+          </div>
+
+          <!-- Passo 3 -->
+          <div class="step-card reveal">
+            <span class="step-number">03</span>
+            <div class="step-icon-wrap">
+              <svg viewBox="0 0 24 24"><path d="M22.7 19l-9.1-9.1c.9-2.3.4-5-1.5-6.9-2-2-5-2.4-7.4-1.3L9 6 6 9 1.6 4.7C.4 7.1.9 10.1 2.9 12.1c1.9 1.9 4.6 2.4 6.9 1.5l9.1 9.1c.4.4 1 .4 1.4 0l2.3-2.3c.5-.4.5-1.1.1-1.4z"/></svg>
+            </div>
+            <h3 class="step-title">Execução e Testes</h3>
+            <p class="step-desc">Realização do reparo com peças de qualidade e realização de bateria de testes para certificar o funcionamento.</p>
+          </div>
+
+          <!-- Passo 4 -->
+          <div class="step-card reveal">
+            <span class="step-number">04</span>
+            <div class="step-icon-wrap">
+              <svg viewBox="0 0 24 24"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 16l-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9l-8 8z"/></svg>
+            </div>
+            <h3 class="step-title">Entrega com Garantia</h3>
+            <p class="step-desc">Você recebe seu aparelho 100% recuperado, pronto para uso e com certificado de garantia de 90 dias.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         PROVA SOCIAL / AVALIAÇÕES
+         ========================================================================== -->
+    <section class="section">
+      <div class="container">
+        <div class="section-title-wrap">
+          <div class="badge-tag">Depoimentos</div>
+          <h2 class="section-title">Quem Confia na <span class="highlight">Matheus Reparos</span></h2>
+          <p class="section-subtitle">Confira a avaliação de clientes que recuperaram seus eletrônicos com agilidade e honestidade.</p>
+        </div>
+
+        <div class="reviews-grid">
+          <!-- Depoimento 1 -->
+          <div class="review-card reveal">
+            <div>
+              <div class="review-stars">
+                <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+              </div>
+              <p class="review-text">"Meu notebook Dell estava fervendo e desligando sozinho no meio do trabalho. O Matheus fez a limpeza térmica e trocou a pasta térmica em menos de 24 horas. Ficou silencioso e rápido como novo!"</p>
+            </div>
+            <div class="review-author">
+              <div class="review-avatar">CS</div>
+              <div>
+                <div class="review-name">Carlos Silveira</div>
+                <div class="review-device">Notebook Dell Inspiron</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Depoimento 2 -->
+          <div class="review-card reveal">
+            <div>
+              <div class="review-stars">
+                <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+              </div>
+              <p class="review-text">"Derrubei meu iPhone e o touch parou totalmente. Fui atendida pelo WhatsApp na mesma hora, me passou o orçamento sem enrolação e trocou a tela no mesmo dia. Atendimento nota 10!"</p>
+            </div>
+            <div class="review-author">
+              <div class="review-avatar">MA</div>
+              <div>
+                <div class="review-name">Mariana Alves</div>
+                <div class="review-device">iPhone 13</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Depoimento 3 -->
+          <div class="review-card reveal">
+            <div>
+              <div class="review-stars">
+                <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+              </div>
+              <p class="review-text">"Conector de carga do meu Galaxy estava com folga e não carregava. Foi resolvido com precisão. O melhor de tudo é a transparência em mostrar o teste antes de devolver. Recomendo demais."</p>
+            </div>
+            <div class="review-author">
+              <div class="review-avatar">FR</div>
+              <div>
+                <div class="review-name">Felipe Rocha</div>
+                <div class="review-device">Samsung Galaxy S21</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         FAQ (PERGUNTAS FREQUENTES)
+         ========================================================================== -->
+    <section class="section">
+      <div class="container">
+        <div class="section-title-wrap">
+          <div class="badge-tag">Dúvidas Rápidas</div>
+          <h2 class="section-title">Perguntas <span class="highlight">Frequentes</span></h2>
+          <p class="section-subtitle">Tire suas dúvidas antes de enviar seu aparelho para reparo.</p>
+        </div>
+
+        <div class="faq-wrap">
+          <div class="faq-item">
+            <button class="faq-question">
+              Quanto tempo demora o reparo do meu equipamento?
+              <span class="faq-icon">
+                <svg viewBox="0 0 24 24"><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"/></svg>
+              </span>
+            </button>
+            <div class="faq-answer">
+              Serviços como troca de tela, substituição de bateria e limpeza preventiva costumam ser concluídos no mesmo dia ou em até 24 horas úteis. Casos de placa ou reparos estruturais são informados com previsão exata no diagnóstico.
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              O orçamento prévio é gratuito?
+              <span class="faq-icon">
+                <svg viewBox="0 0 24 24"><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"/></svg>
+              </span>
+            </button>
+            <div class="faq-answer">
+              Sim! Pelo WhatsApp conseguimos fornecer uma prévia de valores baseando-se no modelo e defeito. Para análise em bancada física, você só aprova o serviço se o valor e condições forem satisfatórios para você.
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              Qual a garantia oferecida nos serviços?
+              <span class="faq-icon">
+                <svg viewBox="0 0 24 24"><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"/></svg>
+              </span>
+            </button>
+            <div class="faq-answer">
+              Todos os nossos serviços de peças e mão de obra contam com 90 dias de garantia contra qualquer vício de fabricação ou instalação, garantindo total tranquilidade.
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              Meus arquivos e dados pessoais estão seguros?
+              <span class="faq-icon">
+                <svg viewBox="0 0 24 24"><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"/></svg>
+              </span>
+            </button>
+            <div class="faq-answer">
+              Tratamos os dados de nossos clientes com rigor absoluto. Em manutenções de hardware seu sistema sequer é acessado, e em formatações orientamos o procedimento de backup integral com total confidencialidade.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         BANNER CTA FINAL
+         ========================================================================== -->
+    <section class="section-sm">
+      <div class="container">
+        <div class="cta-banner reveal">
+          <h2>Seu eletrônico novo de novo</h2>
+          <p>Não compre outro aparelho sem antes falar com a Matheus Reparos. Economize e receba atendimento de alto nível no WhatsApp.</p>
+          <div class="cta-buttons">
+            <a href="#" class="btn btn-whatsapp btn-lg" data-whatsapp-btn>
+              <svg viewBox="0 0 24 24"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2m.01 1.67c2.2 0 4.26.86 5.82 2.41 1.56 1.56 2.41 3.62 2.41 5.83 0 4.54-3.7 8.24-8.24 8.24-1.48 0-2.93-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.19 8.19 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.24-8.24m4.52 11.53c-.25-.13-1.47-.72-1.7-.81-.23-.08-.39-.13-.56.13-.17.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.13-1.06-.39-2.02-1.24-.74-.66-1.25-1.48-1.39-1.73-.15-.25-.02-.39.11-.51.11-.11.25-.29.37-.43.13-.15.17-.25.25-.42.08-.17.04-.31-.02-.44-.06-.13-.56-1.35-.77-1.85-.2-.49-.41-.42-.56-.43h-.48c-.17 0-.44.06-.67.31-.23.25-.87.85-.87 2.08 0 1.22.89 2.4 1.01 2.57.13.17 1.75 2.68 4.25 3.75.59.26 1.06.41 1.42.52.6.19 1.14.16 1.57.1.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.07.15-1.18-.07-.12-.23-.19-.48-.31z"/></svg>
+              Solicitar Orçamento no WhatsApp
+            </a>
+            <a href="contato.html" class="btn btn-secondary btn-lg">
+              Outras Formas de Contato
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==========================================================================
+       FOOTER
+       ========================================================================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Coluna 1: Marca -->
+        <div class="footer-brand">
+          <div class="logo">
+            <div class="logo-icon">
+              <svg viewBox="0 0 24 24"><path d="M22.7 19l-9.1-9.1c.9-2.3.4-5-1.5-6.9-2-2-5-2.4-7.4-1.3L9 6 6 9 1.6 4.7C.4 7.1.9 10.1 2.9 12.1c1.9 1.9 4.6 2.4 6.9 1.5l9.1 9.1c.4.4 1 .4 1.4 0l2.3-2.3c.5-.4.5-1.1.1-1.4z"/></svg>
+            </div>
+            <div class="logo-text">Matheus<span>Reparos</span></div>
+          </div>
+          <p>Especialista em pequenos reparos, instalações e manutenção preventiva e corretiva para smartphones, notebooks e eletrônicos.</p>
+        </div>
+
+        <!-- Coluna 2: Navegação -->
+        <div>
+          <h4 class="footer-heading">Navegação</h4>
+          <div class="footer-links">
+            <a href="index.html" class="footer-link">Início</a>
+            <a href="servicos.html" class="footer-link">Serviços Especializados</a>
+            <a href="sobre.html" class="footer-link">Sobre a Empresa</a>
+            <a href="contato.html" class="footer-link">Fale Conosco</a>
+          </div>
+        </div>
+
+        <!-- Coluna 3: Principais Serviços -->
+        <div>
+          <h4 class="footer-heading">Serviços Populares</h4>
+          <div class="footer-links">
+            <a href="servicos.html" class="footer-link">Troca de Telas</a>
+            <a href="servicos.html" class="footer-link">Baterias Novas</a>
+            <a href="servicos.html" class="footer-link">Limpeza Térmica de Notebook</a>
+            <a href="servicos.html" class="footer-link">Conector de Carga</a>
+            <a href="servicos.html" class="footer-link">Formatação e Backup</a>
+          </div>
+        </div>
+
+        <!-- Coluna 4: Contato & Horários -->
+        <div>
+          <h4 class="footer-heading">Atendimento</h4>
+          <div class="footer-contact-item">
+            <svg viewBox="0 0 24 24"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+            <span data-company-phone>(11) 99999-9999</span>
+          </div>
+          <div class="footer-contact-item">
+            <svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+            <span data-company-email>contato@matheusreparos.com.br</span>
+          </div>
+          <div class="footer-contact-item">
+            <svg viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg>
+            <div>
+              <div data-company-hours-week>Segunda a Sexta: 08h às 18h</div>
+              <div data-company-hours-sat>Sábado: 08h às 13h</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>&copy; <span id="year">2026</span> Matheus Reparos. Todos os direitos reservados.</div>
+        <div>Tecnologia com cuidado, transparência e compromisso.</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==========================================================================
+       WHATSAPP FLOATING BUTTON
+       ========================================================================== -->
+  <div class="wa-float-wrap">
+    <div class="wa-tooltip">
+      <span class="status-indicator" style="width: 6px; height: 6px;"></span>
+      Orçamento no WhatsApp
+    </div>
+    <a href="#" class="wa-float-btn" id="waFloatBtn" title="Falar no WhatsApp com Matheus Reparos" aria-label="Falar no WhatsApp com Matheus Reparos">
+      <span class="wa-badge-pulse"></span>
+      <svg viewBox="0 0 24 24"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2m.01 1.67c2.2 0 4.26.86 5.82 2.41 1.56 1.56 2.41 3.62 2.41 5.83 0 4.54-3.7 8.24-8.24 8.24-1.48 0-2.93-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.19 8.19 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.24-8.24m4.52 11.53c-.25-.13-1.47-.72-1.7-.81-.23-.08-.39-.13-.56.13-.17.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.13-1.06-.39-2.02-1.24-.74-.66-1.25-1.48-1.39-1.73-.15-.25-.02-.39.11-.51.11-.11.25-.29.37-.43.13-.15.17-.25.25-.42.08-.17.04-.31-.02-.44-.06-.13-.56-1.35-.77-1.85-.2-.49-.41-.42-.56-.43h-.48c-.17 0-.44.06-.67.31-.23.25-.87.85-.87 2.08 0 1.22.89 2.4 1.01 2.57.13.17 1.75 2.68 4.25 3.75.59.26 1.06.41 1.42.52.6.19 1.14.16 1.57.1.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.07.15-1.18-.07-.12-.23-.19-.48-.31z"/></svg>
+    </a>
+  </div>
+
+  <!-- Scripts -->
+  <script src="js/script.js"></script>
+</body>
+</html>
