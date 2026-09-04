@@ -120,23 +120,56 @@ function initMobileMenu() {
     document.body.appendChild(overlay);
   }
 
-  if (toggleBtn && navLinks) {
-    const toggleMenu = () => {
-      const isOpen = navLinks.classList.toggle("active");
-      overlay.classList.toggle("active", isOpen);
-      document.body.style.overflow = isOpen ? "hidden" : "";
-    };
+  const hamburgerIcon = '<svg viewBox="0 0 24 24"><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></svg>';
+  const closeIcon = '<svg viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>';
 
-    toggleBtn.addEventListener("click", toggleMenu);
-    overlay.addEventListener("click", toggleMenu);
+  const closeMenu = () => {
+    if (!navLinks) return;
+    navLinks.classList.remove("active");
+    overlay.classList.remove("active");
+    if (toggleBtn) {
+      toggleBtn.innerHTML = hamburgerIcon;
+      toggleBtn.setAttribute("aria-expanded", "false");
+    }
+    document.body.style.overflow = "";
+  };
+
+  const openMenu = () => {
+    if (!navLinks) return;
+    navLinks.classList.add("active");
+    overlay.classList.add("active");
+    if (toggleBtn) {
+      toggleBtn.innerHTML = closeIcon;
+      toggleBtn.setAttribute("aria-expanded", "true");
+    }
+    document.body.style.overflow = "hidden";
+  };
+
+  if (toggleBtn && navLinks) {
+    toggleBtn.addEventListener("click", (e) => {
+      e.stopPropagation();
+      const isOpen = navLinks.classList.contains("active");
+      if (isOpen) {
+        closeMenu();
+      } else {
+        openMenu();
+      }
+    });
+
+    overlay.addEventListener("click", closeMenu);
+
+    // Fecha ao pressionar ESC
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape" && navLinks.classList.contains("active")) {
+        closeMenu();
+      }
+    });
 
     // Fecha ao clicar em algum link interno
     const links = navLinks.querySelectorAll("a");
     links.forEach(link => {
       link.addEventListener("click", () => {
-        navLinks.classList.remove("active");
-        overlay.classList.remove("active");
-        document.body.style.overflow = "";
+        closeMenu();
       });
     });
   }
